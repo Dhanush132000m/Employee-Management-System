@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#login{
+    height: 80vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#loginborder{
+    border: 1px solid black;
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+#nav{
+    height: 30px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav>a{
+    text-decoration: none;
+    padding: 20px;
+}
+#navbar{
+    height:30px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#navbar>a{
+    text-decoration: none;
+    color: black;
+}
+#welcome{
+    height: 80vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#ad{
+    height: 60vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cu{
+    padding: 10px ;
+    display: grid;
+}
+#cu>table{
+    width: 100%;
+    border-collapse:collapse;
+    padding: 10px;
+    table-layout: auto;
+}
+#cu>table>th{
+    text-align: left;
+    background-color:#ddd;
+    padding: 10px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#cu>table>tr{
+    border: 1px solid black;
+    padding: 10px;
+}
+#cu>table>td{
+border-left: 1px solid black;
+padding: 10px;
+text-align: left;
+}
+#cu>tbody>tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#searchbox{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    border: 1px solid black;
+}
+

@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "username": "user1",
+      "password": "pass",
+      "id": 1
+    },
+    {
+      "username": "user2",
+      "password": "password",
+      "id": 2
+    },
+    {
+      "username": "user3",
+      "password": "123",
+      "id": 3
+    }
+  ],
+  "employees": [
+    {
+      "name": "yash",
+      "email": "yash@gmail.com",
+      "mobileno": "7019184546",
+      "designation": "Sales",
+      "gender": "male",
+      "course": "BCA",
+      "image": "C:\\fakepath\\yash.jpg",
+      "id": "nuPmYUH"
+    },
+    {
+      "name": "dealsdray",
+      "email": "dealsdray@gmail.com",
+      "mobileno": "6362634883",
+      "designation": "HR",
+      "gender": "male",
+      "course": "MCA",
+      "image": "C:\\fakepath\\prabhas.jpg",
+      "id": "0UUaUnq"
+    },
+    {
+      "name": "virat ",
+      "email": "virat@gmail.com",
+      "mobileno": "6362634883",
+      "designation": "Manager",
+      "gender": "male",
+      "course": "MCA",
+      "image": "C:\\fakepath\\viratkholi.jpg",
+      "id": "rIhjTgm"
+    }
+  ]
+}
